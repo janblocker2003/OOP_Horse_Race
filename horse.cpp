@@ -5,7 +5,7 @@
 #include "horse.h"
 
 std::random_device rd;
-std::uniform_int_distribution<int> dist(o, 1);
+std::uniform_int_distribution<int> dist(0, 1);
 
 Horse::Horse(){
 	Horse::position = 0;
@@ -43,7 +43,7 @@ bool Horse::isWinner(){
 		std::cout << "Horse " << Horse::index << " wins!" << std::endl;
 	} //end if
 	return result;
-{ //end isWinner
+} //end isWinner
 
 
 
