@@ -8,7 +8,7 @@ int main(){
 	std::cout << "OOP Horse Race!!" << std::endl;
 	
 	testHorse();
-
+	
 	return 0;
 }
 

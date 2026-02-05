@@ -16,8 +16,8 @@ void Race::advance(){
 		for (int i = 0; i < NUM_HORSES; i++){
 			Horse::advance();
 			for (int i = 0; i < TRACK_LENGTH; i++){
-				if (i == horses[horseNum]){
-					std::cout << horseNum;
+				if (i == Horse::position){
+					std::cout << Horse::index;
 				} //end if
 				else {
 					std::cout << ".";
