@@ -63,7 +63,7 @@ set track_length to 15
 	my position = 0
 ```
 
-## void Horse::advance
+## void Horse::advance()
 ```
 coin = a random 0-1 int
 add coin to position
@@ -79,7 +79,7 @@ for position from 0 to trackLength:
 print n/
 ```
 
-## bool Horse::isWinner
+## bool Horse::isWinner()
 ```
 bool result = false
 if position >= trackLength:
