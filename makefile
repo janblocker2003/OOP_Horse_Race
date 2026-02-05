@@ -1,7 +1,7 @@
 horseRace: main.o horse.o
 	g++ -g main.o horse.o -o horseRace
 
-main.o: main.cpp horse.h
+main.o: main.cpp horse.h race.h
 	g++ -g -c main.cpp
 
 horse.o: horse.h horse.cpp
